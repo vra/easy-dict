@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "EasyDict",
+	"version": "0.0.2",
+	"author": "Yunfeng Wang",
+	"description": "A simple interface to check english words",
+	"icons": {"128": "icon_128.png"},
+	"permissions": ["http://*/*", "https://*/*"],
+	"browser_action": {
+		"default_icon": "icon_19.png",
+		"default_popup": "popup.html" 
+	}
+
+}
