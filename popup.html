@@ -3,12 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<title>EasyDict</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 	<script type="text/javascript" src="popup.js"></script>
 </head>
 <body id = 'body' style="width:300px; background-color: #ffffff;">
-	<p>请输入要查询的单词：</p>
+	<p>请输入要查询的单词：(输入后按Ctrl-Enter快捷查询单词)</p>
+
 	<form>
-	<input type="text" name="word", id = "word"></input>
+	<input type="text" name="word", id = "word" autofocus></input>
 	<button type="button" id = "search">查询</button>
 	</form>
 	<div id="result"></div>

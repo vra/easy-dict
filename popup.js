@@ -82,5 +82,14 @@ document.addEventListener("DOMContentLoaded", function(){
 			check_word(word.value);
 		}
 	});
+
+
 });
 
+document.addEventListener('keydown', function(e){
+	var word = document.getElementById('word');
+	var key = e.charCode ? e.charCode: e.keyCode? e.keyCode:0;
+	if (lastDownTarget = word && (key ==13 || key ==9)){
+		check_word(word.value);
+	}
+});
